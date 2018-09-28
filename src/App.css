@@ -1,0 +1,63 @@
+.App {
+  width: 180px;
+}
+
+.App__Row {
+  padding: 15px 7px;
+  position: relative;
+}
+
+.App__Logo {
+  text-align: center;
+  margin-bottom: 10px;
+  background: #F0F0F0;
+  border-bottom: 2px solid #EAEAEA;
+}
+
+.App__Logo img {
+  width: 50%;
+}
+
+.App__Row label {
+  font-weight: bold;
+}
+
+.App__Row select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.App__Row .Switch {
+  position: absolute;
+  right: -5px;
+  top: 0;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.App__AlertsContainer {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  background: #F0F0F0;
+  border-top: 2px solid #EAEAEA;
+}
+
+.App__AlertsContainer__Image img {
+  width: 50%;
+}
+
+.App__AlertsContainer__AlertsQty {
+  font-weight: bold;
+}
+
+.App__AlertsContainer__LastUpdate,
+.App__AlertsContainer__MoreInfo {
+  margin-top: 10px;
+}
+
+.App__AlertsContainer__MoreInfo {
+  font-size: 10px;
+}

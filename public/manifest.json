@@ -1,0 +1,27 @@
+{
+  "short_name": "SMN AR",
+  "name": "SMN AR Chrome Extension",
+  "version": "1.0",
+  "description": "SMN AR Chrome Extension",
+  "permissions": [
+    "https://ws.smn.gob.ar/*",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "Open the popup"
+  },
+  "icons": {
+    "16": "weather-icon.png",
+    "48": "weather-icon.png",
+    "128": "weather-icon.png"
+  },
+  "manifest_version": 2
+}
